@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: BootProj21-MovieStreamingSubscriptionSystem
+  config:
+    import: com/raj/commons/subscription.yml

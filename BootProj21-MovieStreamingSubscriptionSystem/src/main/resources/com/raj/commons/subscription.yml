@@ -1,0 +1,15 @@
+subscription:
+   userId: 9098
+   userName: Kunal Singh
+   plan: Premium UHD
+   watchTimeHours: 15, 12, 9, 20
+   genresPreferred: Thriller, Sci-Fi, Comedy
+   activeDevices: Mobile, Laptop, SmartTV
+   ratings:
+    Inception: 5
+    Interstellar: 4
+    Hera Pheri: 5
+    Tenet: 4
+   lastWatched:
+    movie: Dune
+    duration: 2h 35m
