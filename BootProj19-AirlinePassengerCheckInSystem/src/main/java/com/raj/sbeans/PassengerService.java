@@ -1,5 +1,7 @@
 package com.raj.sbeans;
 
+import java.util.Arrays;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 @Service
@@ -15,7 +17,7 @@ public class PassengerService {
 		System.out.println("Passenger Name\t: "+config.getPassengerName());
 		System.out.println("Flight No\t: "+config.getFlight());
 		System.out.println("\nSeat Preferences: "+config.getSeatPreferences());
-		System.out.println("Baggage Weights\t: "+config.getBaggageWeights());
+		System.out.println("Baggage Weights\t: "+Arrays.toString(config.getBaggageWeights()));
 		System.out.println("Special Help\t: "+config.getSpecialAssistance());
 		
 		System.out.println("\nMeal Choices\t: ");

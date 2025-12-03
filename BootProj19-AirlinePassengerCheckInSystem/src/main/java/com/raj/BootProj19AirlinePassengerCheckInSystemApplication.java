@@ -1,6 +1,7 @@
 package com.raj;
 
 import org.springframework.boot.SpringApplication;
+
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
@@ -17,6 +18,8 @@ public class BootProj19AirlinePassengerCheckInSystemApplication {
 			PassengerService passengerService = ctx.getBean(PassengerService.class);
 			passengerService.displayPassengerInfo();
 			
+		}catch (Exception e) {
+			e.printStackTrace();
 		}
 	}
 
