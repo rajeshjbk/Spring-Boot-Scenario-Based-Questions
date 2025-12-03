@@ -1,0 +1,21 @@
+
+#Airline Details
+
+airline:
+  passengerId: 8742
+  passengerName: Meera Joshi
+  flight: AI-203
+  seatPreferences: 
+   - Window
+   - Extra Legroom
+  baggageWeights: 12.5, 7.8
+  specialAssistance: 
+   - Wheelchair
+   - Priority Boarding
+  meals: 
+   veg: Asian Vegetarian
+   dring: Orange Juice
+   dessert: Chocolate Mousse
+  history:
+   2022: 3
+   2023: 5

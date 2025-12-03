@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: BootProj19-AirlinePassengerCheckInSystem
+  config:
+    import: com/raj/commons/airline.yml;
