@@ -1,0 +1,18 @@
+
+#Customer Details
+
+customer:
+   accountNo: 5529100034
+   holderName: Rohan Malhotra
+   branch: Delhi Main
+   balances: 12000.5, 5600.75, 9800.0
+   accountTypes: Savings, Current, Demat
+   documents: PAN, Aadhaar, Passport
+   interestRates:
+     saving: 3.5
+     current: 0.0
+     demat: 0.0
+   transactions:
+     T1001: 5000
+     T1002: -3000
+     T1003: 1200
