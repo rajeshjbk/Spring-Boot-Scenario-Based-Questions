@@ -12,7 +12,6 @@ public class PushNotificationService implements NotificationService {
 	@Override
 	public String sendNotification(Notification notification) {
 		
-		
 		return "Sending Push Notification to "+notification.getRecipient()+": "+notification.getMessage();
 	}
 
